@@ -1,0 +1,64 @@
+# --table-start--
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=id
+generatedId=true
+# --field-end--	
+# --field-start--
+fieldName=bezeichnung
+columnName=artikel_bezeichnung
+# --field-end--	
+# --field-start--
+fieldName=anzahl
+columnName=artikel_anzahl
+# --field-end--	
+# --field-start--
+fieldName=status
+columnName=artikel_status
+# --field-end--	
+# --table-fields-end--
+# --table-end--	
+# --table-start--
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=id
+generatedId=true
+# --field-end--	
+# --field-start--
+fieldName=returnStep
+columnName=__ReturnStepStack_returnStep
+# --field-end--	
+# --field-start--
+fieldName=returnAndReverseStep
+columnName=__ReturnStepStack_returnAndReverseStep
+# --field-end--	
+# --field-start--
+fieldName=returnAndProceedStep
+columnName=__ReturnStepStack_returnAndProceedStep
+# --field-end--	
+# --field-start--
+fieldName=tail
+columnName=__ReturnStepStack_tail
+foreign=true
+# --field-end--		
+# --table-fields-end--
+# --table-end--	
+# --table-start--
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=id
+generatedId=true
+# --field-end--	
+# --field-start--
+fieldName=currentProcessChainStep
+columnName=__ProcessChainControllerState_currentProcessChainStep
+# --field-end--	
+# --field-start--
+fieldName=lastEventFired
+columnName=__ProcessChainControllerState_lastEventFired
+# --field-end--	
+# --table-fields-end--
+# --table-end--	

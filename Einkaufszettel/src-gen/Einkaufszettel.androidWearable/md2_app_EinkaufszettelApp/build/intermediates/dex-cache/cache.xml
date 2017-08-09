@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_df9d8a5f323b72b87e96afb3d9d45f1fc56844f3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fd1d88f084a18405d4b032532ab83f237657a335">
+        <dex dex="C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_052b63d39c802cd4adc533e26f08b8fcf6a6c124\classes.dex" />
+    </item>
+
+</items>

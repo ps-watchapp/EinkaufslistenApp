@@ -1,0 +1,66 @@
+package Einkaufszettel.views
+
+/*
+ * Implement the view here
+ */
+
+ListView EinkaufszettelView{
+	
+	connectedProvider :EinkaufszettelProvider.bezeichnung
+	onClickAction Einkaufszettel.StarteArtikelAnsehen
+	leftSwipeAction Einkaufszettel.BewegeArtikelSpaeterEinkaufen
+	rightSwipeAction Einkaufszettel.BewegeArtikelEinkaufswagen
+	
+	
+	//ActionDrawer EinkaufswagenDrawer(title 'Funktionen'){
+	//	Actions{
+	//		Einkaufszettel.StarteArtikelHinzufuegen
+	//	}
+	//}
+	
+}
+
+
+ListView SpaeterEinkaufenView{
+	
+	connectedProvider : SpaeterEinkaufenProvider.bezeichnung
+	onClickAction SpaeterEinkaufen.StarteArtikelAnsehen
+	rightSwipeAction SpaeterEinkaufen.BewegeArtikelEinkaufszettel
+	
+}
+
+
+ListView EinkaufswagenView{
+	
+	connectedProvider :EinkaufswagenProvider.bezeichnung
+	onClickAction Einkaufswagen.StarteArtikelAnsehen
+	leftSwipeAction Einkaufswagen.BewegeArtikelEinkaufszettel
+	rightSwipeAction Einkaufswagen.BewegeArtikelSpaeterEinkaufen
+ 
+}
+
+
+GridLayoutPane ArtikelHinzufuegenView(columns 1){
+	
+	GridLayoutPane Input (columns 1){
+		TextInput BezeichnungTextfeld{}
+		IntegerInput AnzahlIntegerfeld{}
+	}
+	
+	GridLayoutPane Buttons(columns 1){
+		Button HinzufuegenButton {style button text "Hinzufügen" disabled false}
+	}
+	
+}
+
+
+GridLayoutPane ArtikelAnsehenView(columns 2){
+	Label BezeichnungLabel{text ""}
+	Label AnzahlLabel{text ""}
+}
+
+
+style button{
+	fontSize 1.2
+	textStyle bold
+}

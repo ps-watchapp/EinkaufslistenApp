@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="md2.einkaufszettel.test">
+
+    <uses-sdk android:minSdkVersion="25" android:targetSdkVersion="25" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <instrumentation android:name="android.test.InstrumentationTestRunner"
+                     android:targetPackage="md2.einkaufszettel"
+                     android:handleProfiling="false"
+                     android:functionalTest="false"
+                     android:label="Tests for md2.einkaufszettel"/>
+</manifest>

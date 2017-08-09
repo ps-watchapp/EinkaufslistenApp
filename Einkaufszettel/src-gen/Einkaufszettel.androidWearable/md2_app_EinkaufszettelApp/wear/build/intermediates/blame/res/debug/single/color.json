@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Alexander\\runtime-New_configuration\\Einkaufszettel\\src-gen\\Einkaufszettel.androidWearable\\md2_app_EinkaufszettelApp\\wear\\build\\intermediates\\res\\merged\\debug\\color\\card_grey_text_color.xml",
+        "source": "C:\\Users\\Alexander\\.android\\build-cache\\1faddaef784f55b9a3d30d56f99cd252b3e27540\\output\\res\\color\\card_grey_text_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alexander\\runtime-New_configuration\\Einkaufszettel\\src-gen\\Einkaufszettel.androidWearable\\md2_app_EinkaufszettelApp\\wear\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Alexander\\.android\\build-cache\\896754b045b42f2e8a6b36ccbe0004855a9a9f8c\\output\\res\\color\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alexander\\runtime-New_configuration\\Einkaufszettel\\src-gen\\Einkaufszettel.androidWearable\\md2_app_EinkaufszettelApp\\wear\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_tint.xml",
+        "source": "C:\\Users\\Alexander\\.android\\build-cache\\896754b045b42f2e8a6b36ccbe0004855a9a9f8c\\output\\res\\color\\common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alexander\\runtime-New_configuration\\Einkaufszettel\\src-gen\\Einkaufszettel.androidWearable\\md2_app_EinkaufszettelApp\\wear\\build\\intermediates\\res\\merged\\debug\\color\\circular_button.xml",
+        "source": "C:\\Users\\Alexander\\.android\\build-cache\\1faddaef784f55b9a3d30d56f99cd252b3e27540\\output\\res\\color\\circular_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alexander\\runtime-New_configuration\\Einkaufszettel\\src-gen\\Einkaufszettel.androidWearable\\md2_app_EinkaufszettelApp\\wear\\build\\intermediates\\res\\merged\\debug\\color\\card_text_color.xml",
+        "source": "C:\\Users\\Alexander\\.android\\build-cache\\1faddaef784f55b9a3d30d56f99cd252b3e27540\\output\\res\\color\\card_text_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alexander\\runtime-New_configuration\\Einkaufszettel\\src-gen\\Einkaufszettel.androidWearable\\md2_app_EinkaufszettelApp\\wear\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Alexander\\.android\\build-cache\\896754b045b42f2e8a6b36ccbe0004855a9a9f8c\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
+    }
+]

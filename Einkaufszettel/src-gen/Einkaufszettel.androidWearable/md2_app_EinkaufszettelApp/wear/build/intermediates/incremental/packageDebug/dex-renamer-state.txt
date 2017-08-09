@@ -1,0 +1,7 @@
+#Wed Aug 09 11:48:17 CEST 2017
+base.0=C\:\\Users\\Alexander\\runtime-New_configuration\\Einkaufszettel\\src-gen\\Einkaufszettel.androidWearable\\md2_app_EinkaufszettelApp\\wear\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_df9d8a5f323b72b87e96afb3d9d45f1fc56844f3
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Alexander\\runtime-New_configuration\\Einkaufszettel\\src-gen\\Einkaufszettel.androidWearable\\md2_app_EinkaufszettelApp\\wear\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_052b63d39c802cd4adc533e26f08b8fcf6a6c124\\classes.dex
+base.1=C\:\\Users\\Alexander\\runtime-New_configuration\\Einkaufszettel\\src-gen\\Einkaufszettel.androidWearable\\md2_app_EinkaufszettelApp\\wear\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_052b63d39c802cd4adc533e26f08b8fcf6a6c124
+file.0=C\:\\Users\\Alexander\\runtime-New_configuration\\Einkaufszettel\\src-gen\\Einkaufszettel.androidWearable\\md2_app_EinkaufszettelApp\\wear\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_df9d8a5f323b72b87e96afb3d9d45f1fc56844f3\\classes.dex

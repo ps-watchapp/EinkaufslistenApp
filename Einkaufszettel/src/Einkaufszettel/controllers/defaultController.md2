@@ -1,0 +1,213 @@
+package Einkaufszettel.controllers
+
+/*
+ * Implement the controller here
+ */
+
+main {
+	appVersion "1.0"
+	modelVersion "1.0"
+	workflowManager WorkflowBackendConnection
+}
+
+
+remoteConnection WorkflowBackendConnection {
+	uri "http://localhost:8080/Einkaufszettel.backend/service/"
+}
+
+//Listenzugehörigkeit durch integer status der Artikel:
+//0 = Einkaufszettel
+//1 = Einkaufswagen
+//2 = SpaeterEinkaufen
+
+contentProvider Artikel ArtikelHinzufuegenProvider{
+	//Filter fehlt
+	//providerType auf remote setzen?
+	providerType local
+}
+
+contentProvider Artikel ArtikelAnsehenProvider{
+	//Filter fehlt
+	//providerType auf remote setzen?
+	providerType local
+}
+
+contentProvider Artikel ArtikelBewegenProvider{
+	//Wird nur als Zwischenstation beim Verschieben eines Artikels aus einer Liste in eine andere gebraucht
+	providerType local
+}
+
+contentProvider Artikel[] EinkaufszettelProvider{
+	//Filter fehlt
+	//providerType auf remote setzen?
+	providerType local
+}
+
+contentProvider Artikel[] SpaeterEinkaufenProvider{
+	//Filter fehlt
+	//providerType auf remote setzen?
+	providerType local
+}
+
+contentProvider Artikel[] EinkaufswagenProvider{
+	//Filter fehlt
+	//providerType auf remote setzen?
+	providerType local
+}
+
+
+WorkflowElement SpaeterEinkaufen {
+	
+	defaultProcessChain firstProcessChain
+	
+	onInit {
+		init
+	}
+	
+	action CustomAction init {
+	}
+	
+	action CustomAction StarteArtikelAnsehen {
+		call ContentProviderGetActive(:ArtikelAnsehenProvider, :SpaeterEinkaufenProvider)
+		call FireEvent (StarteArtikelAnsehen)
+	}
+	
+	action CustomAction BewegeArtikelEinkaufszettel{
+		call ContentProviderGetActive(:ArtikelBewegenProvider, :SpaeterEinkaufenProvider)
+		set :ArtikelBewegenProvider.status = 0
+		call ContentProviderRemoveActive(:SpaeterEinkaufenProvider)
+		call ContentProviderAdd(:EinkaufszettelProvider, :ArtikelBewegenProvider)
+	}
+	
+	processChain  firstProcessChain {
+		step firstStep:
+			view SpaeterEinkaufenView
+	}
+}
+
+
+WorkflowElement Einkaufszettel {
+
+	defaultProcessChain firstProcessChain
+	
+	onInit {
+		init
+	}
+	
+	action CustomAction init {
+	}
+	
+	action CustomAction StarteArtikelHinzufuegen{
+		call FireEvent(StarteArtikelHinzufuegen)
+	}
+	
+	action CustomAction StarteArtikelAnsehen{
+		call ContentProviderGetActive(:ArtikelAnsehenProvider, :EinkaufszettelProvider)
+		call FireEvent(StarteArtikelAnsehen)
+	}
+	
+	action CustomAction BewegeArtikelSpaeterEinkaufen{
+		call ContentProviderGetActive(:ArtikelBewegenProvider, :EinkaufszettelProvider)
+		set :ArtikelBewegenProvider.status = 2
+		call ContentProviderRemoveActive(:EinkaufszettelProvider)
+		call ContentProviderAdd(:SpaeterEinkaufenProvider, :ArtikelBewegenProvider)
+	}
+	
+	action CustomAction BewegeArtikelEinkaufswagen{
+		call ContentProviderGetActive(:ArtikelBewegenProvider, :EinkaufszettelProvider)
+		set :ArtikelBewegenProvider.status = 1
+		call ContentProviderRemoveActive(:EinkaufszettelProvider)
+		call ContentProviderAdd(:EinkaufswagenProvider, :ArtikelBewegenProvider)
+	}
+	
+	processChain  firstProcessChain {
+		step firstStep:
+			view EinkaufszettelView
+	}
+}
+
+	
+WorkflowElement Einkaufswagen {
+	defaultProcessChain firstProcessChain
+	
+	onInit {
+		init
+	}
+	
+	action CustomAction init {
+		
+	}
+	
+	action CustomAction StarteArtikelAnsehen {
+		call ContentProviderGetActive (:ArtikelAnsehenProvider, :EinkaufswagenProvider)
+		call FireEvent (StarteArtikelAnsehen)
+	}
+	
+	action CustomAction BewegeArtikelEinkaufszettel{
+		call ContentProviderGetActive (:ArtikelBewegenProvider, :EinkaufswagenProvider)
+		set :ArtikelBewegenProvider.status = 0
+		call ContentProviderRemoveActive(:EinkaufswagenProvider)
+		call ContentProviderAdd(:EinkaufszettelProvider, :ArtikelBewegenProvider)
+	}
+	
+	action CustomAction BewegeArtikelSpaeterEinkaufen{
+		call ContentProviderGetActive (:ArtikelBewegenProvider, :EinkaufswagenProvider)
+		set :ArtikelBewegenProvider.status = 2
+		call ContentProviderRemoveActive(:EinkaufswagenProvider)
+		call ContentProviderAdd(:SpaeterEinkaufenProvider, :ArtikelBewegenProvider)
+	}
+	
+	processChain  firstProcessChain {
+		step firstStep:
+			view EinkaufswagenView
+	}
+}
+
+
+WorkflowElement ArtikelHinzufuegen {
+	defaultProcessChain firstProcessChain
+	
+	onInit {
+		init
+	}
+	
+	action CustomAction init {
+		map ArtikelHinzufuegenView.Input.BezeichnungTextfeld to :ArtikelHinzufuegenProvider.bezeichnung
+		map ArtikelHinzufuegenView.Input.AnzahlIntegerfeld to :ArtikelHinzufuegenProvider.anzahl
+		bind action Hinzufuegen on ArtikelHinzufuegenView.Buttons.HinzufuegenButton.onClick
+	}
+	
+	action CustomAction Hinzufuegen {
+		set :ArtikelHinzufuegenProvider.status = 0
+		call ContentProviderAdd(:EinkaufszettelProvider, :ArtikelHinzufuegenProvider)
+		call FireEvent(CloseEvent)
+	}
+	
+	processChain  firstProcessChain {
+		step firstStep:
+			view ArtikelHinzufuegenView
+	}
+}
+
+
+WorkflowElement ArtikelAnsehen {
+	defaultProcessChain firstProcessChain
+	
+	onInit {
+		init
+	}
+	
+	action CustomAction init {
+		map ArtikelAnsehenView.BezeichnungLabel to :ArtikelAnsehenProvider.bezeichnung
+		map ArtikelAnsehenView.AnzahlLabel to :ArtikelAnsehenProvider.anzahl
+	}
+	
+	action CustomAction close {
+		call FireEvent (CloseEvent) 
+	}
+	
+	processChain  firstProcessChain {
+		step firstStep:
+			view ArtikelAnsehenView
+	}
+}

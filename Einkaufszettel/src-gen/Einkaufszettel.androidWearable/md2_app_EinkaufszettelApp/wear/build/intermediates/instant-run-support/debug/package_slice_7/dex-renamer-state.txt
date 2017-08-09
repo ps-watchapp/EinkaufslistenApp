@@ -1,0 +1,4 @@
+#Wed Aug 09 11:48:17 CEST 2017
+base.0=C\:\\Users\\Alexander\\runtime-New_configuration\\Einkaufszettel\\src-gen\\Einkaufszettel.androidWearable\\md2_app_EinkaufszettelApp\\wear\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_7
+renamed.0=classes.dex
+file.0=C\:\\Users\\Alexander\\runtime-New_configuration\\Einkaufszettel\\src-gen\\Einkaufszettel.androidWearable\\md2_app_EinkaufszettelApp\\wear\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_7\\classes.dex

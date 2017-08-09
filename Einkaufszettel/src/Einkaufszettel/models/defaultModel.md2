@@ -1,0 +1,11 @@
+package Einkaufszettel.models
+
+/*
+ * Implement the model here
+ */
+
+ entity Artikel{
+ 	bezeichnung: string
+ 	anzahl: integer
+ 	status: integer
+ }

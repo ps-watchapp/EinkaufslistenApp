@@ -1,0 +1,137 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml:3:1-52:12
+	package
+		ADDED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml:4:5-33
+		INJECTED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml:3:11-69
+	android:versionCode
+		INJECTED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml
+uses-feature#android.hardware.type.watch
+ADDED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml:6:6-65
+	android:name
+		ADDED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml:6:20-62
+application
+ADDED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml:8:5-51:19
+MERGED from [com.google.android.support:wearable:2.0.1] C:\Users\Alexander\.android\build-cache\1faddaef784f55b9a3d30d56f99cd252b3e27540\output\AndroidManifest.xml:6:3-8:17
+MERGED from [com.android.support:percent:25.2.0] C:\Users\Alexander\.android\build-cache\15159dd121fb682a1e6bda31a10217b25fb9504e\output\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-wearable:10.2.1] C:\Users\Alexander\.android\build-cache\075dc777413e500353368c9b92aa8edb497380b3\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\Alexander\.android\build-cache\896754b045b42f2e8a6b36ccbe0004855a9a9f8c\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\Alexander\.android\build-cache\245a6d028c9429f9ddad81972c979f14d3f0869d\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\Alexander\.android\build-cache\0e3cfc4b2663952a08333bfdfee7c00ebbeec8ce\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Alexander\.android\build-cache\0a8b9685ff1e887e6b70a9db9e13b424b9d7bc0c\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Alexander\.android\build-cache\7c756cfe0efb7a02de8f41b32f8018d0832c9b26\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Alexander\.android\build-cache\3e6850589481b870f18882d46d401d3061256065\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Alexander\.android\build-cache\bfe597af1adeb34a622e97985981adfb82a94da1\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Alexander\.android\build-cache\ce53f562e2b5ee401ac9a5c3e295136447ca4989\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Alexander\.android\build-cache\023002c4867cd2722d89edf83f2ccf275f201fb2\output\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml:12:9-29
+	android:allowBackup
+		ADDED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml:10:9-35
+	android:icon
+		ADDED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml:11:9-43
+	android:theme
+		ADDED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml:13:9-42
+	android:name
+		ADDED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml:9:9-42
+activity#md2.einkaufszettel.SpaeterEinkaufenViewActivity
+ADDED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml:22:11-30:22
+	android:label
+		ADDED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml:24:12-71
+	android:launchMode
+		ADDED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml:25:12-47
+	android:name
+		ADDED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml:23:1-45
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml:26:1-29:18
+action#android.intent.action.MAIN
+ADDED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml:27:2-54
+	android:name
+		ADDED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml:27:10-51
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml:28:2-62
+	android:name
+		ADDED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml:28:12-59
+activity#md2.einkaufszettel.EinkaufszettelViewActivity
+ADDED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml:31:11-35:22
+	android:label
+		ADDED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml:33:12-69
+	android:launchMode
+		ADDED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml:34:12-47
+	android:name
+		ADDED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml:32:1-43
+activity#md2.einkaufszettel.EinkaufswagenViewActivity
+ADDED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml:36:11-40:22
+	android:label
+		ADDED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml:38:12-68
+	android:launchMode
+		ADDED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml:39:12-47
+	android:name
+		ADDED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml:37:1-42
+activity#md2.einkaufszettel.ArtikelAnsehenViewActivity
+ADDED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml:41:11-45:22
+	android:label
+		ADDED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml:43:12-69
+	android:launchMode
+		ADDED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml:44:12-47
+	android:name
+		ADDED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml:42:1-43
+activity#md2.einkaufszettel.ArtikelHinzufuegenViewActivity
+ADDED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml:46:11-50:22
+	android:label
+		ADDED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml:48:12-73
+	android:launchMode
+		ADDED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml:49:12-47
+	android:name
+		ADDED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml:47:1-47
+uses-sdk
+INJECTED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [md2_app_EinkaufszettelApp:md2Library-debug:unspecified] C:\Users\Alexander\.android\build-cache\92012f610da6c22c0f9ac3cdfd37f8f735dee9bb\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.android.support:wearable:2.0.1] C:\Users\Alexander\.android\build-cache\1faddaef784f55b9a3d30d56f99cd252b3e27540\output\AndroidManifest.xml:4:3-70
+MERGED from [com.android.support:percent:25.2.0] C:\Users\Alexander\.android\build-cache\15159dd121fb682a1e6bda31a10217b25fb9504e\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.2.0] C:\Users\Alexander\.android\build-cache\4ace32656b58dddfdbe72ce7d1735527252b1f4e\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-wearable:10.2.1] C:\Users\Alexander\.android\build-cache\075dc777413e500353368c9b92aa8edb497380b3\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\Alexander\.android\build-cache\896754b045b42f2e8a6b36ccbe0004855a9a9f8c\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\Alexander\.android\build-cache\245a6d028c9429f9ddad81972c979f14d3f0869d\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\Alexander\.android\build-cache\0e3cfc4b2663952a08333bfdfee7c00ebbeec8ce\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Alexander\.android\build-cache\0a8b9685ff1e887e6b70a9db9e13b424b9d7bc0c\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Alexander\.android\build-cache\7c756cfe0efb7a02de8f41b32f8018d0832c9b26\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Alexander\.android\build-cache\3e6850589481b870f18882d46d401d3061256065\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Alexander\.android\build-cache\bfe597af1adeb34a622e97985981adfb82a94da1\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Alexander\.android\build-cache\ce53f562e2b5ee401ac9a5c3e295136447ca4989\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Alexander\.android\build-cache\023002c4867cd2722d89edf83f2ccf275f201fb2\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:25.2.0] C:\Users\Alexander\.android\build-cache\0a8b9685ff1e887e6b70a9db9e13b424b9d7bc0c\output\AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Alexander\runtime-New_configuration\Einkaufszettel\src-gen\Einkaufszettel.androidWearable\md2_app_EinkaufszettelApp\wear\src\main\AndroidManifest.xml
+uses-library#com.google.android.wearable
+ADDED from [com.google.android.support:wearable:2.0.1] C:\Users\Alexander\.android\build-cache\1faddaef784f55b9a3d30d56f99cd252b3e27540\output\AndroidManifest.xml:7:5-88
+	android:required
+		ADDED from [com.google.android.support:wearable:2.0.1] C:\Users\Alexander\.android\build-cache\1faddaef784f55b9a3d30d56f99cd252b3e27540\output\AndroidManifest.xml:7:62-86
+	android:name
+		ADDED from [com.google.android.support:wearable:2.0.1] C:\Users\Alexander\.android\build-cache\1faddaef784f55b9a3d30d56f99cd252b3e27540\output\AndroidManifest.xml:7:19-61
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\Alexander\.android\build-cache\896754b045b42f2e8a6b36ccbe0004855a9a9f8c\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\Alexander\.android\build-cache\896754b045b42f2e8a6b36ccbe0004855a9a9f8c\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\Alexander\.android\build-cache\896754b045b42f2e8a6b36ccbe0004855a9a9f8c\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\Alexander\.android\build-cache\896754b045b42f2e8a6b36ccbe0004855a9a9f8c\output\AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\Alexander\.android\build-cache\0e3cfc4b2663952a08333bfdfee7c00ebbeec8ce\output\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\Alexander\.android\build-cache\0e3cfc4b2663952a08333bfdfee7c00ebbeec8ce\output\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\Alexander\.android\build-cache\0e3cfc4b2663952a08333bfdfee7c00ebbeec8ce\output\AndroidManifest.xml:20:20-65

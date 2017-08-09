@@ -1,0 +1,47 @@
+package Einkaufszettel.workflows
+
+/*
+ * Implement the workflow here
+ */
+WorkflowElement SpaeterEinkaufen
+	fires StarteArtikelAnsehen {
+		start ArtikelAnsehen
+	} 
+	
+WorkflowElement Einkaufszettel
+	fires StarteArtikelHinzufuegen {
+		start ArtikelHinzufuegen
+	}
+	fires StarteArtikelAnsehen{
+		start ArtikelAnsehen
+	}
+
+
+	
+WorkflowElement Einkaufswagen
+	fires StarteArtikelAnsehen {
+		start ArtikelAnsehen
+	}
+
+WorkflowElement ArtikelAnsehen
+	fires CloseEvent {
+		end workflow
+	}
+
+
+WorkflowElement ArtikelHinzufuegen
+	fires CloseEvent {
+		end workflow
+	}
+
+App EinkaufszettelApp {
+	WorkflowElements {
+		SpaeterEinkaufen(startable: "später einkaufen"),
+		Einkaufszettel(startable: "Einkaufszettel"),
+		Einkaufswagen(startable: "Einkaufswagen"),
+		ArtikelAnsehen,
+		ArtikelHinzufuegen(startable: "Artikel zu Einkaufszettel Hinzufuegen")
+	}
+	appName "Einkaufszettel"
+}
+
